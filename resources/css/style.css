@@ -1,0 +1,148 @@
+body {
+	margin: auto;
+}
+.content {
+    display: flex;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    color: black;
+    justify-content: space-around;
+}
+
+.head {
+	position: fixed;
+	display: inline-flex;
+	font-weight: bold;
+	border-bottom: 1px solid black;
+	padding-bottom: 10px;
+	width: 100%;
+	height: 69px;
+	background-color: white;
+	z-index: 20;
+}
+	#HR {
+		color: black;
+		text-decoration: underline;
+		padding-right: 10px;
+	}
+	.header {
+		color: MediumAquamarine;
+		margin-right: 970px;
+		margin-left: 10px;
+	}
+	.logo, .header, #HR {
+		font-family: Verdana;
+		font-size: 14px;
+		font-weight: bold;
+		padding-top: 15px;
+	}
+
+.leftcontainer {
+	display: inline-flex;
+	justify-content: space-between;
+	width: 630px;
+	flex-direction: column;
+	padding-top: 15px;
+
+}
+	.imagecontainer {
+		display: inline-flex;
+		background-image: url("images/img-story-main.png");
+		align-content: center;
+		color: white;
+		font-size: 50px;
+		height: 300px;
+		width: 630px;
+	}
+	.monument {
+		
+		display: flex;
+		width: 610px;
+		padding-bottom: 20px;
+	}
+	.story {
+	display: flex;
+	justify-content: space-between;
+	}
+	.earth {
+		display: flex;
+		background-image: url("images/img-story-2.png");
+		width: 260px;
+		height: 280px;
+		font-size: 45px;
+		text-align: center;
+		color: white;
+	}
+	.burgerP, .orcaP, .burger, .orcaH, .research {
+		width: 280px;
+	}
+	.burger {
+		display: flex;
+		flex-direction: column;
+	}
+	.research {
+		display: flex;
+		background-image: url("images/img-story-3.png");
+		height: 280px;
+		font-size: 45px;
+		text-align: center;
+		color: white;	
+	}
+	
+.middlecontainer, .brooklyn {
+	display: inline-flex;
+	flex-direction: column;
+	margin-left: 30px;
+	align-items: center;
+	width: 300px;
+}
+	.cats {
+		display: flex;
+		background-image: url("images/img-story-1.png");
+		width: 300px;
+		height: 250px;
+		font-size: 50px;
+		text-align: center;
+		color: white;
+	}
+
+.rightcontainer, .news, .cookie{
+	display: inline-flex;
+	text-align: center;
+	flex-direction: column; 
+	width: 240px;
+	margin-left: 20px;
+}	
+	.cookie {
+		display: flex;
+		justify-content: center;
+		align-content: center;
+	}
+	.news {
+		justify-content: flex-end;
+		font-size: 20px;
+	}
+	.newsP {
+		background-color: gainsboro;
+		color: gray;
+		padding: 10px;
+		margin-left: 20px;
+		border-bottom: 1px solid black;
+	}
+
+span.mt {
+	margin-right: 30px;
+	font-weight: bold;
+	color: white;
+}
+	
+footer{
+	text-align: center;
+	margin: auto;
+	padding-top: 50px;
+	height: 150px;
+	background-color: MediumAquamarine; 
+	font-size: 12px;
+}
+
+
